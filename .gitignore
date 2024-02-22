@@ -1,0 +1,5 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore chat.sql in the database folder
+/database/chat.sql

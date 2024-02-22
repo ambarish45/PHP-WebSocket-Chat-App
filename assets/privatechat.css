@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#remaining {
+    flex-grow: 1;
+}
+
+#messages {
+    height: 200px;
+    background: whitesmoke;
+    overflow: auto;
+}
+
+#chat-room-frm {
+    margin-top: 10px;
+}
+
+#user_list {
+    height: 450px;
+    overflow-y: auto;
+}
+
+#messages_area {
+    height: 75vh;
+    overflow-y: auto;
+    /*background-color:#e6e6e6;*/
+    /*background-color: #EDE6DE;*/
+}
