@@ -69,7 +69,7 @@ if (isset($_POST["register"])) {
         //     $mail->Body = '
         //     <p>Thank you for registering for Chat Application Demo.</p>
         //         <p>This is a verification email, please click the link to verify your email address.</p>
-        //         <p><a href="http://localhost/phpchat/verify.php?code='.$user_object->getUserVerificationCode().'">Click to Verify</a></p>
+        //         <p><a href="http://localhost/PHP-WebSocket-Chat-App/verify.php?code='.$user_object->getUserVerificationCode().'">Click to Verify</a></p>
         //         <p>Thank you...</p>
         //     ';
 
@@ -82,7 +82,7 @@ if (isset($_POST["register"])) {
         // {
         //     $error = 'Something went wrong try again';
         // }
-        $verificationLink = 'http://localhost/phpchat/verify.php?code=' . $user_object->getUserVerificationCode();
+        $verificationLink = 'http://localhost/PHP-WebSocket-Chat-App/verify.php?code=' . $user_object->getUserVerificationCode();
 
         if ($user_object->save_data()) {
             header('location:' . $verificationLink);
